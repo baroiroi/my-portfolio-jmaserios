@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { SiBurgerking } from 'react-icons/si'
 import { navbar } from '../utils/data'
-const Navbar = () => {
+const NavBar = () => {
 
     const [showMenu,setShowMenu] = useState(false)
 
@@ -32,4 +32,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavBar
