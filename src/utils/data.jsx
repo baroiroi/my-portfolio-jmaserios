@@ -1,6 +1,6 @@
 export const navbar = [
     {
-      name: 'Splash',
+      name: 'Home',
       href: '/splash'
     },
     {
