@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { SiBurgerking } from 'react-icons/si'
 import { navbar } from '../utils/data'
-
 const NavBar = () => {
 
     const [showMenu,setShowMenu] = useState(false)
