@@ -6,19 +6,18 @@ import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <>
-    <NavBar />
+    <Navbar />
     <Splash />
     <About />
     <Skills />
     <Experiences />
     <Projects />
     <Contacts />
-    
     <Footer />
     </>
   );
