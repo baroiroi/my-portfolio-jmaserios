@@ -19,7 +19,7 @@ const NavBar = () => {
                 </span>
                 <SiBurgerking size={30} onClick={handleClick} />
             </div>
-            {showMenu && <div className="fixed px-3 text-white text-right h-full w-full opacity-0.5">
+            {showMenu && <div className="fixed w-full h-full px-3 text-right text-white opacity-0.5">
                 <ul className="">
                     {navbar.map((nav, index) => {
                         return (
